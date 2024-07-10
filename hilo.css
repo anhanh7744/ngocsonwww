@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+.page {
+    display: none;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+}
+.head{
+    text-align: center;
+}
+#top{
+    color: rgb(27, 14, 202);
+    border-radius: 5px;
+    background-color: rgb(25, 218, 236);
+
+}
+.head h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(192, 183, 6, 0.199);
+}
+.head p{
+    font-size: 30px;
+    
+    padding-bottom: 50px;
+    background-color: rgb(15, 237, 241);
+}
+.image{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.page button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.page form input{
+    margin: 20px;
+    font-size: 18px;
+}
+.menu li a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.menu {
+    display: flex;
+    
+    border: #222;
+    border: 1px;
+    margin-bottom: 50px;
+}
+
+.menu li {
+    margin: auto;
+    color: black;
+    list-style-type: none;
+    
+}
+
+
+
+.menu .sub-menu-1 {
+    display: block;
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 240px;
+    padding: 15px;
+
+}
+
+.menu li:hover .sub-menu-1 {
+    background-color: rgb(22, 200, 240);
+    border-radius: 3px;
+    padding: 2px;
+    display: block;
+    margin-left: 100px;
+    
+}
+.menu li:hover .sub-menu-1 li {
+    margin: 1px;
+    border: rgb(12, 37, 164) ;
+    
+}
+.menu li:hover .sub-menu-1 li a {
+    font-size: 30px;
+}
+.menu .sub-menu-2 {
+    position: absolute;
+    display: none;
+    top: auto;
+    left: 240px;
+    padding: 15px;
+
+}
+
+.menu li:hover .sub-menu-2 {
+    background-color: rgb(77, 176, 238);
+    border-radius: 3px;
+    padding: 2px;
+    display: block;
+    margin-left: 800px;
+
+}
+.menu li:hover .sub-menu-2 li {
+    margin: 1px;
+    border: antiquewhite;
+    
+}
+.menu li:hover .sub-menu-2 li a {
+    font-size: 30px;
+}
+.menu li h1{
+    background-color: aquamarine;
+    padding: 5px;
+}
+.menu{
+    padding:  50px;
+    background-color: aquamarine;
+}
+.footer h3{
+    margin-top: 20px;
+    
+}
+.footer marquee{
+    background-color: blueviolet;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer marquee h2{
+    background-color: blueviolet;
+}

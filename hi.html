@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop NamSadNhân</title>
+    <link rel="stylesheet" href="hilo.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>Chào mừng đến với cửa hàng <b id="top">Thời Trang</b></h1>
+            <p>Xin chào! Chúng tôi rất vui khi được phục vụ bạn.</p>
+        </div>
+        <div class="menu">
+            <li><a href="">
+                <h1>Nam</h1>
+                <ul class="sub-menu-1">
+                    <li><a href="https://routine.vn/thoi-trang-nam/ao-nam.html" target="_blank">Áo Nam</a></li>
+                    <li><a href="https://routine.vn/thoi-trang-nam/quan-nam.html" target="_blank">Quần Nam</a></li>
+                    <li><a href="https://routine.vn/thoi-trang-nam/underwear-nam.html" target="_blank">Đồ Lót Nam</a></li>
+                    <li><a href="https://routine.vn/phu-kien.html" target="_blank">Phụ Kiện</a></li>
+                </ul>
+            </a>
+        </li>
+        <li><a href="">
+            <h1>Nữ</h1>
+            <ul class="sub-menu-2">
+                <li><a href="https://routine.vn/thoi-trang-nu/ao-nu.html" target="_blank">Áo Nữ</a></li>
+                <li><a href="https://routine.vn/thoi-trang-nu/quan-nu.html" target="_blank">Quần Nữ</a></li>
+                <li><a href="https://routine.vn/thoi-trang-nu/dam-nu.html" target="_blank">Đầm nữ</a></li>
+                <li><a href="https://routine.vn/thoi-trang-nu/underwear-nu.html" target="_blank">Đồ Lót Nữ</a></li>
+                <li><a href="https://routine.vn/phu-kien.html" target="_blank">Phụ Kiện</a></li>
+            </ul>
+        </a>
+    </li>
+        </div>
+    </header>
+
+    <div id="productsPage" class="page">
+        <h2>Danh Sách Sản Phẩm</h2>
+        <form action="">
+            <input type="search" placeholder="🔍 Nhập từ khóa tìm kiếm...">
+        </form>
+        <div id="productList"></div>
+        <button onclick="goToCart()">Giỏ Hàng</button>
+    </div>
+
+    <div id="cartPage" class="page hidden">
+        <h2>Giỏ Hàng</h2>
+        <div id="cartItemList"></div>
+        <p>Tổng giá trị đơn hàng: <span id="totalPrice">0</span>đ</p>
+        <div class="mb-3 d-flex flex-row">
+            <label for="" class="form-label fw-bold"
+              >Thanh toán</label
+            >
+            <select
+              class="form-select form-select-lg"
+              name=""
+              id=""
+              style="width: 250px; font-size: 15px; margin-left: 5px"
+            >
+              
+              <option value="">Inter Banking</option>
+              <option value="">Momo</option>
+              <option value="">Thẻ tín dụng</option>
+            </select>
+          </div>
+          
+          <button onclick="checkout()">Thanh toán</button>
+          <div id="payment-message" style="display: none; color: green; font-weight: bold;"></div>
+        <button id="DS" onclick="goToProducts()">Quay lại</button>
+    </div>
+
+    <div class="footer">
+        <marquee behavior="" direction=""><h2>- - - Cảm ơn quý khách đã tin tưởng! - - -</h2></marquee>
+        <h3>Địa chỉ: Số nhà 22, Ngõ 3, Phú Lương, Hà Đông, Hà Nội</h3>
+        <h3>Liên Hệ: 0364212691</h3>
+    </div>
+
+    <script src="himo.js"></script>
+</body>
+</html>
